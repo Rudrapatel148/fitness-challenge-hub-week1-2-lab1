@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About FitSquad Hub</title>
+
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+
+<body>
+
+<div class="about-container">
+
+    <h1 th:text="${pageTitle}">Welcome to the FitSquad Hub!</h1>
+
+    <p>
+        FitSquad Hub is a community fitness challenge platform designed
+        to make working out more exciting, social, and rewarding.
+        Members can participate in fitness quests, track their workout
+        duration, and earn XP reward points as they progress.
+    </p>
+
+    <p>
+        Whether you're just beginning your fitness journey or looking
+        for a tougher challenge, FitSquad Hub offers difficulty levels
+        ranging from Beginner to Advanced. Join the community, complete
+        challenges, earn XP, and keep pushing toward your fitness goals!
+    </p>
+
+    <div class="features">
+        <h2>Why Join FitSquad?</h2>
+
+        <ul>
+            <li>🏆 Complete community fitness challenges</li>
+            <li>⭐ Earn XP reward points</li>
+            <li>⏱ Track workout duration</li>
+            <li>💪 Choose from Beginner to Advanced challenges</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
